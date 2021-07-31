@@ -1,0 +1,16 @@
+{% extends 'isviv/base.html' %}
+
+    {% block content %}
+    <form action="{% url action quest.id %}" method="post">
+    {% csrf_token %}
+    <fieldset>
+        <legend><h1>{{ quest.question }}</h1></legend>
+        {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+        {% for choice in choices %}
+            <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
+            <label for="choice{{ forloop.counter }}">{{ choice.choice }}</label><br>
+        {% endfor %}
+    </fieldset>
+    <input type="submit" value="Ответить">
+    </form>
+    {% endblock %}

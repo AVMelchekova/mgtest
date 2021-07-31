@@ -1,0 +1,11 @@
+{% extends 'isviv/base.html' %}
+
+    {% block content %}
+    <h2>{{ question.question }}</h2>
+    <h2>{{ selected_choice }}</h2>
+    <h3>{{ result }}</h3>
+    <a href="{% url 'isviv:index' %}">На главную</a>
+    {% if next_q %}
+    <a href="{% url next_link %}">Следующий вопрос</a>
+    {% endif %}
+    {% endblock %}

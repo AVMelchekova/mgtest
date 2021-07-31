@@ -1,0 +1,13 @@
+{% extends 'isviv/base.html' %}
+
+    {% block content %}
+    <p><a href="{% url 'isviv:quest' %}" >Водоснабжение и водоотведение</a></p>
+    <p><a href="{% url 'istgv:quest' %}" >Теплогазоснабжение и вентиляция</a></p>
+    <p><a href="{% url 'tosous:quest' %}" >Технология и организация строительства</a></p>
+    <p><a href="{% url 'gidravlika:quest' %}" >Гидравлика</a></p>
+    <p><a href="{% url 'ecology:quest' %}" >Экология</a></p>
+    <p><a href="{% url 'oask:quest' %}" >Основы архитектуры и СК</a></p>
+    <p><a href="{% url 'zakon:quest' %}" >Основы законодательства</a></p>
+    <p><a href="{% url 'vivmgsu:quest' %}" >Водоснабжение МГСУ</a></p>
+    <p><a href="{% url 'tezis:quest' %}" >Техническая эксплуатация ЗиС</a></p>
+    {% endblock %}
