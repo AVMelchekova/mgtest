@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'tezis.apps.TezisConfig',
     'geodezy.apps.GeodezyConfig',
     'mathematics.apps.MathematicsConfig',
+    'metrology.apps.MetrologyConfig',
 ]
 
 MIDDLEWARE = [

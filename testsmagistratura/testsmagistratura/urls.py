@@ -28,6 +28,6 @@ urlpatterns = [
     path('tezis/', include('tezis.urls')),
     path('geodezy/', include('geodezy.urls')),
     path('mathematics/', include('mathematics.urls')),
-
+    path('metrology/', include('metrology.urls')),
     path('admin/', admin.site.urls),
 ]
