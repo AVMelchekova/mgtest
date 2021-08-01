@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'vivmgsu.apps.VivmgsuConfig',
     'tezis.apps.TezisConfig',
     'geodezy.apps.GeodezyConfig',
+    'mathematics.apps.MathematicsConfig',
 ]
 
 MIDDLEWARE = [
