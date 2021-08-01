@@ -29,5 +29,6 @@ urlpatterns = [
     path('geodezy/', include('geodezy.urls')),
     path('mathematics/', include('mathematics.urls')),
     path('metrology/', include('metrology.urls')),
+    path('soilmechanics/', include('soilmechanics.urls')),
     path('admin/', admin.site.urls),
 ]

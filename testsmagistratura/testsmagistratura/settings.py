@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'geodezy.apps.GeodezyConfig',
     'mathematics.apps.MathematicsConfig',
     'metrology.apps.MetrologyConfig',
+    'soilmechanics.apps.SoilmechanicsConfig',
 ]
 
 MIDDLEWARE = [
