@@ -30,5 +30,6 @@ urlpatterns = [
     path('mathematics/', include('mathematics.urls')),
     path('metrology/', include('metrology.urls')),
     path('soilmechanics/', include('soilmechanics.urls')),
+    path('mzhg/', include('mzhg.urls')),
     path('admin/', admin.site.urls),
 ]
