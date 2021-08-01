@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'metrology.apps.MetrologyConfig',
     'soilmechanics.apps.SoilmechanicsConfig',
     'mzhg.apps.MzhgConfig',
+    'constructionmaterials.apps.ConstructionmaterialsConfig',
 ]
 
 MIDDLEWARE = [
