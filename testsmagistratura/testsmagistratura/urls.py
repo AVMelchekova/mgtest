@@ -26,5 +26,6 @@ urlpatterns = [
     path('zakon/', include('zakon.urls')),
     path('vivmgsu/', include('vivmgsu.urls')),
     path('tezis/', include('tezis.urls')),
+    path('geodezy/', include('geodezy.urls')),
     path('admin/', admin.site.urls),
 ]

@@ -45,7 +45,8 @@ INSTALLED_APPS = [
     'oask.apps.OaskConfig',
     'zakon.apps.ZakonConfig',
     'vivmgsu.apps.VivmgsuConfig',
-    'tezis.apps.TezisConfig'
+    'tezis.apps.TezisConfig',
+    'geodezy.apps.GeodezyConfig',
 ]
 
 MIDDLEWARE = [
