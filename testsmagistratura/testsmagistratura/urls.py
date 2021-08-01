@@ -33,5 +33,6 @@ urlpatterns = [
     path('mzhg/', include('mzhg.urls')),
     path('constructionmaterials/', include('constructionmaterials.urls')),
     path('tsposp/', include('tsposp.urls')),
+    path('physics/', include('physics.urls')),
     path('admin/', admin.site.urls),
 ]
