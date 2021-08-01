@@ -54,6 +54,9 @@ INSTALLED_APPS = [
     'constructionmaterials.apps.ConstructionmaterialsConfig',
     'tsposp.apps.TspospConfig',
     'physics.apps.PhysicsConfig',
+    'chemistry.apps.ChemistryConfig',
+    'economyc.apps.EconomycConfig',
+    'electrician.apps.ElectricianConfig'
 ]
 
 MIDDLEWARE = [
