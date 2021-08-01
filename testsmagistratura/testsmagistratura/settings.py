@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'soilmechanics.apps.SoilmechanicsConfig',
     'mzhg.apps.MzhgConfig',
     'constructionmaterials.apps.ConstructionmaterialsConfig',
+    'tsposp.apps.TspospConfig',
 ]
 
 MIDDLEWARE = [
